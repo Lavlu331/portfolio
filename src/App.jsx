@@ -170,7 +170,7 @@ export default function App() {
             </div>
             <div>
               <span className="text-xs bg-indigo-100 text-indigo-700 font-semibold px-3 py-1 rounded-full">Certificate 02</span>
-              <h3 className="text-xl font-bold text-slate-900 mt-2">Second Competition Name</h3>
+              <h3 className="text-xl font-bold text-slate-900 mt-2">Asset Skills and Innovation Competition 2025</h3>
               <p className="text-slate-600 text-sm leading-relaxed mt-1">
                 Successfully participated and received a Certificate of Participation for this technical event.
               </p>
