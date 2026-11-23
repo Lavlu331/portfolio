@@ -52,6 +52,8 @@ export const projects = [
     description:
       'Browse products, manage a cart, apply coupons and track cash-on-delivery orders. The admin panel manages products, inventory and orders.',
     stack: ['React', 'Vite', 'Node.js', 'Express', 'MariaDB 11.8', 'alwaysdata'],
+    github: 'https://github.com/Lavlu331/MyStore',
+    githubLabel: 'Source Code',
     live: 'https://lavlu.alwaysdata.net/',
     liveLabel: 'Live Demo',
   },

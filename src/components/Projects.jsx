@@ -19,7 +19,7 @@ export default function Projects() {
               <div className="mt-5 flex gap-5 text-sm font-medium">
                 {p.github && (
                   <a href={p.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-accent">
-                    <FaGithub /> Source code
+                    <FaGithub /> {p.githubLabel ?? 'Source code'}
                   </a>
                 )}
                 {p.live && (
