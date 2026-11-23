@@ -48,6 +48,14 @@ export const skills = [
 // github বা live না থাকলে ওই লাইন মুছে দিন, বাটন নিজে থেকে লুকিয়ে যাবে।
 export const projects = [
   {
+    title: 'MyStore — Full-Stack E-commerce Demo',
+    description:
+      'Browse products, manage a cart, apply coupons and track cash-on-delivery orders. The admin panel manages products, inventory and orders.',
+    stack: ['React', 'Vite', 'Node.js', 'Express', 'MariaDB 11.8', 'alwaysdata'],
+    live: 'https://lavlu.alwaysdata.net/',
+    liveLabel: 'Live Demo',
+  },
+  {
     title: 'Student Management System',
     description:
       'A Laravel app for managing students, courses and results, with admin login and printable reports.',

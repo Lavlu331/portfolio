@@ -24,7 +24,7 @@ export default function Projects() {
                 )}
                 {p.live && (
                   <a href={p.live} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-accent">
-                    <FaExternalLinkAlt size={12} /> Live site
+                    <FaExternalLinkAlt size={12} /> {p.liveLabel ?? 'Live site'}
                   </a>
                 )}
               </div>
